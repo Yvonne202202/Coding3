@@ -21,6 +21,22 @@ I first ran the reference code in Jupyter. The way to read the data set in the s
 </div>
 
 I need to ensure that the dataset files are in the right place. So, I created the 'images' folder in the same directory as the code and placed the dataset I was using inside the 'images' folder. I removed the code used to extract the dataset and create the images folder, and changed the path to read the dataset to '.images/data/'. After making these changes, I was able to load the dataset correctly.
+
+I got another error when I ran the saved trained model status word. 
+
+<div align=center>
+  <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/4.png" width="60%">
+  <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/6.png" width="60%">
+</div>
+
+According to ChatGPT, 'torch.save(gen.state_dict(), params_path + '/van-gogh-gen-64-650')' is used to gen the generator model's status word into a file. 'gen.load_state_dict(torch.load(params_path + '/model-gen-64-850', map_location=torch.device('cpu')))' is used to load the model status word. I get an error when I use the save path of the source code. I changed the save path to the current path to solve this problem.
+
+<div align=center>
+  <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/7.png" width="60%">
+  <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/8.png" width="60%">
+  <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/9.png" width="60%">
+</div>
+
 ### Compare fake images trained at different image sizes
 
 ## Evaluation
