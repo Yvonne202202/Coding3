@@ -1,5 +1,6 @@
 # Coding3 Final Project
 Project URL: https://drive.google.com/drive/folders/1qek9t_AS9DHp-xvxtd1AsjAWqHWOUDxC?usp=drive_link
+Project video: https://youtu.be/lzV0zAIfAPw
 <div align=center>
   <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/下载 (5).png" width="100%">
 </div>
