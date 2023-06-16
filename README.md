@@ -112,3 +112,6 @@ To expedite the training process, I attempted to run the code using Colab's GPU.
 
 ## Evaluation
 ## Reference
+Turn Your Computer into an Artist with AI: https://medium.com/mlearning-ai/turn-your-computer-into-an-artist-with-ai-8a58014bb5d4
+Guide to Generative Adversarial Networks (GANs) in 2023: https://viso.ai/deep-learning/generative-adversarial-networks-gan/
+DCGAN TUTORIAL: https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
