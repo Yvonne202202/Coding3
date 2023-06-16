@@ -1,5 +1,9 @@
 # Coding3 Final Project
 Project URL: https://drive.google.com/drive/folders/1qek9t_AS9DHp-xvxtd1AsjAWqHWOUDxC?usp=drive_link
+<div align=center>
+  <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/下载 (5).png" width="100%">
+</div>
+
 ### Source of the data set
 URL: https://www.kaggle.com/datasets/peymannejat/ovarian-cancer-pathology-patches
 <div align=center>
