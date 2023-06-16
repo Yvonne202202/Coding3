@@ -60,5 +60,55 @@ When the image size is 64 pixels, the resulting fake image is only 8kb in size. 
   <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/13.png" width="80%">
 </div>
 
+When the number of iterations is 50,150,250,350,450,550,650, the observed false images are as follows:
+<div align=center>
+  <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/generated_image_150.png" width="10%"> <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/generated_image_250.png" width="10%"> <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/generated_image_350.png" width="10%"> <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/generated_image_450.png" width="10%"> <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/generated_image_550.png" width="10%"> <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/generated_image_650.png" width="10%">
+</div>
+
+When the image size is 128, the sharpness of the fake images are greatly improved.
+
+
+<div align=center>
+  <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/14.png" width="80%">
+</div>
+
+When the number of iterations is 50,150,250,350,450,550,650, the observed false images are as follows:
+
+<div align=center>
+  <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/generated_image_150 2.png" width="20%"> <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/generated_image_250 2.png" width="20%"> <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/generated_image_350 2.png" width="20%">
+  
+ <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/generated_image_450 2.png" width="20%"> <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/generated_image_550 2.png" width="20%"> <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/generated_image_650 2.png" width="20%">
+</div>
+
+When epoch is 282 and 284, the trained images looks like a lady carrying a dress.
+<div align=center>
+  <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/generated_image_282.png" width="20%"> <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/generated_image_284.png" width="20%">
+</div>
+
+To get a higher quality image, I changed the image size to 256.
+
+<div align=center>
+  <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/15.png" width="80%">
+</div>
+
+My code was modified based on an image size of 128 pixels, so I modified the network architecture of the model. Since the size of the input image doubled, I added a convolutional layer to the discriminator. In addition to this, I also added a deconvolution layer to the generator.
+
+<div align=center>
+  <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/16.jpg" width="45%">   <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/17.jpg" width="45%">
+</div>
+
+
+However, even after changing the image size to 256, the model still does not converge after 650 epochs. I need to perform more iterations to achieve better results. Due to the high number of iterations, I did not have enough time for training.
+
+<div align=center>
+  <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/18.png" width="100%">
+</div>
+
+To expedite the training process, I attempted to run the code using Colab's GPU. After uploading the folder to Google Drive, I needed to adjust the path where the dataset was loaded to the path of the dataset in the cloud repository in order to load the dataset correctly.
+
+<div align=center>
+  <img src="https://github.com/Yvonne202202/Coding3/blob/main/images/19.png" width="80%">
+</div>
+
 ## Evaluation
 ## Reference
