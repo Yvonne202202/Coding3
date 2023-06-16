@@ -111,6 +111,8 @@ To expedite the training process, I attempted to run the code using Colab's GPU.
 </div>
 
 ## Evaluation
+Convergence is an ongoing process that necessitates numerous training iterations to evaluate the model. Running 650 epoch programs on my local Jupyter took nearly 20 hours, and I encountered several interruptions while training with Colab due to inadequate GPU allocation. Consequently, I could not train the model sufficiently for this project. Nonetheless, through continuous attempts, I acquired a deeper understanding of deep learning. Although I do not consider DCGAN as the optimal framework for creating art, it's still worth exploring.
+
 ## Reference
 Turn Your Computer into an Artist with AI: https://medium.com/mlearning-ai/turn-your-computer-into-an-artist-with-ai-8a58014bb5d4
 
